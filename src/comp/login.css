@@ -1,0 +1,65 @@
+form{
+  
+}
+input{
+  
+}
+button:hover{
+  background-color: orange;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 500;
+
+}
+.App{
+  background-image: url('https://images.pexels.com/photos/1028599/pexels-photo-1028599.jpeg?auto=compress&cs=tinysrgb&w=400');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-block-wrapper {
+  width: 400px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+  backdrop-filter: blur(20px);
+  border-radius: 1px; /* Match the border radius of the parent */
+   /* Ensure the overlay is behind the content */
+   text-align: center;
+   font-family: cursive;
+   
+}
+
+.form-block__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-block__toggle-block {
+  margin-top: 20px;
+}
+
+/* components/LoginForm.js */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Add this to your CSS file */
+
+/* Add this to your CSS file */
+#form-toggler {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+}
