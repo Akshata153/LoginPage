@@ -75,6 +75,7 @@ function LoginForm({ mode }) {
   return (
     <>
       <div className="form-block__input-wrapper">
+        <h1>WELCOME</h1>
         {mode === 'login' ? (
           <form>
           <div className="form-group form-group--login">
